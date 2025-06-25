@@ -1,5 +1,5 @@
 {
-  "name": "@lishenxydlgzs/aws-athena-mcp",
+  "name": "@ekisu/aws-athena-mcp",
   "version": "1.0.0",
   "description": "Model Context Protocol (MCP) server for running AWS Athena queries",
   "type": "module",
@@ -32,7 +32,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lishenxydlgzs/aws-athena-mcp"
+    "url": "https://github.com/ekisu/aws-athena-mcp"
   },
   "engines": {
     "node": ">=16"
