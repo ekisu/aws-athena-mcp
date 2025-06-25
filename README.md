@@ -21,18 +21,18 @@ A Model Context Protocol (MCP) server for running AWS Athena queries. This serve
   "mcpServers": {
     "athena": {
       "command": "npx",
-      "args": ["-y", "@lishenxydlgzs/aws-athena-mcp"],
+      "args": ["-y", "github:ekisu/aws-athena-mcp"],
       "env": {
         // Required
         "OUTPUT_S3_PATH": "s3://your-bucket/athena-results/",
-        
+
         // Optional AWS configuration
         "AWS_REGION": "us-east-1",                    // Default: AWS CLI default region
         "AWS_PROFILE": "default",                     // Default: 'default' profile
         "AWS_ACCESS_KEY_ID": "",                      // Optional: AWS access key
         "AWS_SECRET_ACCESS_KEY": "",                  // Optional: AWS secret key
         "AWS_SESSION_TOKEN": "",                      // Optional: AWS session token
-        
+
         // Optional server configuration
         "ATHENA_WORKGROUP": "default_workgroup",      // Optional: specify the Athena WorkGroup
         "QUERY_TIMEOUT_MS": "300000",                 // Default: 5 minutes (300000ms)
